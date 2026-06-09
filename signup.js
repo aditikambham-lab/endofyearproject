@@ -23,6 +23,7 @@ signupForm.addEventListener("submit", async function (e) {
     action: "signup"
   };
 
+  
   try {
     const res = await fetch(scriptURL, {
       method: "POST",
