@@ -11,7 +11,7 @@ window.addEventListener("DOMContentLoaded", function () {
       // Hide login button, show profile dropdown
       loginBtn.style.display = "none";
       profileMenu.style.display = "block";
-  
+  //jj
       // Show user's name in the profile menu
       profileMenu.querySelector("ul").insertAdjacentHTML("afterbegin", `<li><strong>${userName}</strong></li>`);
   
