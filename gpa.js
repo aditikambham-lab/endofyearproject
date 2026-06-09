@@ -9,7 +9,7 @@ if (!currentUserEmail) {
   alert("Please log in to access the GPA Calculator.");
   window.location.href = "login.html";
 }
-
+//hhh
 // Helper: localStorage key for this user's courses
 const storageKey = `courses_${currentUserEmail}`;
 
